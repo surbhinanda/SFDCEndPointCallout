@@ -13,7 +13,5 @@ public class TransactionItemWrapper {
     }
 
     
-    public static List<TransactionItemWrapper> parse(String json) {
-        return (List<TransactionItemWrapper>) System.JSON.deserialize(json, List<TransactionItemWrapper>.class);
-    }
+   
 }
